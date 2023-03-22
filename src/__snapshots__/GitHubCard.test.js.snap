@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a snapshot of GitHubCard 1`] = `
+<div
+  className="container"
+>
+  <title>
+     ()
+  </title>
+  <div
+    className="mx-auto my-5 card"
+    style={
+      Object {
+        "backgroundColor": "#0d1117",
+        "color": "white",
+        "width": "340px",
+      }
+    }
+  >
+    <div
+      className="card-header"
+      style={
+        Object {
+          "borderBottom": "1px solid #21262d",
+          "height": "70px",
+        }
+      }
+    >
+      <img
+        className="position-absolute rounded-circle"
+        src=""
+        style={
+          Object {
+            "height": "275px",
+            "left": "30px",
+            "top": "25px",
+            "width": "275px",
+          }
+        }
+      />
+    </div>
+    <div
+      className="text-start d-flex card-body"
+      style={
+        Object {
+          "height": "200px",
+          "margin": "218px 30px 0px",
+        }
+      }
+    >
+      <div>
+        <div
+          className="row"
+          style={
+            Object {
+              "fontSize": "26px",
+              "fontWeight": "600",
+            }
+          }
+        />
+        <div
+          className="row"
+          style={
+            Object {
+              "color": "#828c97",
+              "fontSize": "20px",
+              "fontWeight": "300",
+              "marginTop": "-6px",
+            }
+          }
+        >
+           · they/them
+        </div>
+        <div
+          className="row"
+          style={
+            Object {
+              "fontSize": "18px",
+              "marginTop": "10px",
+            }
+          }
+        />
+        <div
+          className="row"
+        >
+          <a
+            className="btn btn-primary"
+            disabled={false}
+            href=""
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            role="button"
+            style={
+              Object {
+                "backgroundColor": "#21262d",
+                "border": "1px solid #363b43",
+                "fontSize": "14px",
+                "height": "34px",
+                "marginTop": "15px",
+                "width": "275px",
+              }
+            }
+            tabIndex={0}
+            target="_blank"
+          >
+            Link to Profile
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
